@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1"  >
+  <defs>
+    <linearGradient id="grad1" x1="100%" y1="50%" x2="75%" y2="90%">
+      <stop offset="0%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,0,255);stop-opacity:1" />
+	  </linearGradient>
+    <linearGradient id="grad2" x1="75%" y1="90%" x2="25%" y2="90%">
+      <stop offset="0%" style="stop-color:rgb(255,0,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(0,0,255);stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad3" x1="25%" y1="90%" x2="0%" y2="50%">
+      <stop offset="0%" style="stop-color:rgb(0,0,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(0,255,255);stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad4" x1="0%" y1="50%" x2="25%" y2="9%">
+      <stop offset="0%" style="stop-color:rgb(0,255,255);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(0,255,0);stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad5" x1="25%" y1="9%" x2="75%" y2="9%">
+      <stop offset="0%" style="stop-color:rgb(0,255,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="grad6" x1="75%" y1="9%" x2="100%" y2="60%">
+      <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+	
+
+  <path id="line1" 
+	  d="M 234 120 A 114 114 0 0 1 177 218.726896031426"
+	  stroke="url(#grad1)" 
+	  stroke-width="12" 
+	  fill="none" />
+
+  <path id="line2"
+	  d="M 177 218.726896031426 A 114 114 0 0 1 63 218.726896031426" 
+	  stroke="url(#grad2)" 
+	  stroke-width="12" 
+	  fill="none" />
+
+  <path id="line3"
+	  d="M 63 218.726896031426 A 114 114 0 0 1 6 120" 
+	  stroke="url(#grad3)" 
+	  stroke-width="12" 
+	  fill="none" />
+
+  <path id="line4"
+	  d="M 6 120 A 114 114 0 0 1 63 21.273103968574006" 
+	  stroke="url(#grad4)" 
+	  stroke-width="12" 
+	  fill="none" />
+
+  <path id="line5"
+	  d="M 63 21.273103968574006 A 114 114 0 0 1 177 21.273103968574006" 
+	  stroke="url(#grad5)" 
+	  stroke-width="12" 
+	  fill="none" />
+
+  <path id="line6"
+	  d="M 177 21.273103968574006 A 114 114 0 0 1 234 120" 
+	  stroke="url(#grad6)" 
+	  stroke-width="12" 
+	  fill="none" />
+</svg>
